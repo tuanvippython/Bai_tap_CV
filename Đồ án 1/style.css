@@ -1,0 +1,51 @@
+.my_cv{
+    display: flex;
+    
+}
+.left{
+    width: 500px;
+    background-color: #4260f5;
+    color: #fff;
+}
+
+.right{
+    width: 800px;
+    margin-left: 50px;
+}
+
+.ul_left{
+    list-style: none;
+    
+}
+
+.name{
+    padding-left:  30px;
+    border-right:  1px solid #000;
+    padding-right: 30px;
+   
+}
+
+.header_left{
+    text-align: center;
+}
+
+.Skill{
+    margin-left: 35px;
+}
+.Interests{
+    margin-left: 35px;
+}
+.language{
+    margin-left: 35px;
+}
+
+.right i{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Thêm border-radius để tạo hình tròn */
+  text-align: center;
+  line-height: 60px; /* Đảm bảo icon được căn giữa theo chiều dọc */
+  background-color: #4260f5; /* Màu nền của hình tròn */
+  color: #FFF;
+}
